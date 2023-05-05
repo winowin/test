@@ -1,0 +1,100 @@
+
+.addinfo{
+    background-color: #fff;
+    margin: 20px auto;
+}
+.layui-form input{
+    border-color: black;
+}
+.layui-form textarea{
+    border-color: black;
+}
+.saveinfo{
+
+    background-color: #f8c78b; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px -2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+.b2{
+    margin-right: 10px;
+}
+.b1:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 10px 10px 0 rgba(0,0,0,0.19);
+}
+.b2:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 10px 10px 0 rgba(0,0,0,0.19);
+}
+.order_right,.order_left{
+    border-radius:12px ;
+}
+
+.order_right_form input[type="text"]{
+    position: relative;
+    top: 5px;
+}
+.order_left ul li{
+    font-size: 15px;
+}
+.customerinfo{
+    text-align: center;
+}
+.avatar{
+    text-align: center;
+    height: 85px;
+}
+.layui-col-md6{
+    width: 100%;
+    padding-bottom: 16px;
+}
+.labels{
+    float: left;
+    width: 60px;
+    margin-top: 8px;
+}
+.layui-input{
+    width: 70%;
+    float:right;
+}
+.layui-col-space10{
+    margin-top: 20px;
+}
+
+/*a  upload */
+.file {
+    position: relative;
+    display: inline-block;
+    background: #f8c78b;
+    border: 1px solid #f8c78b;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #f5b362;
+    border-color: #f8c78b;
+    color: #fff;
+    text-decoration: none;
+}

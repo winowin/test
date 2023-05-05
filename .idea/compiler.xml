@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="s_day12_response" />
+        <module name="s_day11_servlet" />
+        <module name="s_day15" />
+        <module name="s_day10_javaweb" />
+        <module name="s_day16" />
+        <module name="s_day17" />
+        <module name="s_day18" />
+        <module name="summer_jdbc" />
+        <module name="S_Day12_request" />
+        <module name="summer_day09" />
+        <module name="s_day14_jsp" />
+        <module name="s_day09_dbutils" />
+        <module name="flower_shop" />
+        <module name="s_day13_01servletContext" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="summer_datasource" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

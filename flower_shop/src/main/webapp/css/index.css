@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+
+
+/* 头部标题 */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: url(../images/meiniya4.png);
+    background-size: 60%;
+    background-repeat:no-repeat;
+}
+
+.header .search input[type=text]{
+      width: 130px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('http://static.runoob.com/images/mix/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 10px 20px 10px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+
+}
+.header .search input[type=text]:focus{
+    width: 360px;
+}
+.header .search .button {
+    background-color: #f8c78b; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px -2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+ .button2:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 10px 10px 0 rgba(0,0,0,0.19);
+}
+.header h1 {
+    font-size: 50px;
+}
+
+
+/* 导航条 */
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.carouselnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* 导航条链接 */
+.topnav a {
+    float: left;
+    display: block;
+    color: #596172;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.carouselnav a{
+    float: left;
+    display: block;
+    color: #596172;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* 链接颜色修改 */
+.topnav a:hover {
+    background-color: white;
+
+    color: #f8c78b;
+}
+.carouselnav a:hover{
+    background-color: whitesmoke;
+
+    color: #f8c78b;
+}
+
+/*轮播图*/
+
+
+/* 创建两列 */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+    background-color: #f1f1f1;
+}
+
+/* 右侧栏 */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* 图像部分 */
+.fakeimg {
+    background-color: #fff;
+    border: 5px solid whitesmoke;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 10px;
+}
+
+/* 文章卡片效果 */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 底部 */
+.footer {
+
+    padding: 20px;
+    text-align: center;
+    background: #f1f1f1;
+    margin-top: 20px;
+}
+
+/*响应式图片*/
+
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
+}

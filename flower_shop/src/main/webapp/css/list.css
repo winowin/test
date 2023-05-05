@@ -1,0 +1,155 @@
+@import url(page.css);
+
+#box {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    list-style: none;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.box_head{
+position: relative;
+margin: 0;
+height: 50px;
+font-size: 30px;
+font-weight: 400;
+color: #757575;
+border-top: 1px solid #e0e0e0;
+}
+.box_head span{
+position: absolute;
+top: -20px;
+left: 372px;
+height: 40px;
+width: 482px;
+line-height: 40px;
+text-align: center;
+display: block;
+background-color: #f5f5f5;
+font-size: 30px;
+}
+#box {
+
+    width:100%;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+}
+
+#box h2{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom:15px ;
+}
+
+#box ul {
+    text-align: center;
+    padding:30px 50px;
+    overflow: hidden;
+}
+#box li {
+    list-style: none;
+    width: 234px;
+    float: left;
+    margin-right: 14px;
+    padding: 24px 0 20px;
+    background: #FFF;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin-bottom:14px;
+}
+/*---------------*/
+#box1 {
+
+    width:100%;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+}
+
+#box1 h2{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom:15px ;
+}
+
+#box1 ul {
+    text-align: center;
+    padding:30px 50px;
+    overflow: hidden;
+}
+#box1 li {
+    list-style: none;
+    width: 234px;
+    float: left;
+    padding: 24px 0 20px;
+    background: #FFF;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+
+}
+#box1 li:hover .add_btn {
+    display: block;
+}
+#box1 li:hover .pro_rank {
+    opacity: 0;
+}
+#box1 li .add_btn:hover {
+    background-color: #f8c78b;
+    color: white;
+}
+/*---------------*/
+.pro_img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 18px;
+}
+
+
+.pro_name {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+}
+.pro_name a {
+    color: #333;
+    text-decoration: none;
+}
+
+.pro_price {
+    color: #f8c78b;
+    margin: 10px;
+}
+.pro_rank {
+    color: #757575;
+    margin: 10px;
+}
+#box li:hover .add_btn {
+    display: block;
+}
+#box li:hover .pro_rank {
+    opacity: 0;
+}
+#box li .add_btn:hover {
+    background-color: #f8c78b;
+    color: white;
+}
+.add_btn {
+    height: 22px;
+    position: absolute;
+    width: 122px;
+    bottom: 28px;
+    left: 50%;
+    margin-left: -61px;
+    line-height: 22px;
+    display: none;
+    color: #f8c78b;
+    font-size: 12px;
+    border: 1px solid  #f8c78b;
+}
+

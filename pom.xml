@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rookie</groupId>
+    <artifactId>newjdbc</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>summer_jdbc</module>
+<!--        <module>summer_datesource</module>-->
+        <module>summer_day09</module>
+        <module>s_day09_dbutils</module>
+        <module>s_day10_javaweb</module>
+        <module>s_day11_servlet</module>
+        <module>s_day12_response</module>
+        <module>S_Day12_request</module>
+        <module>s_day13_01servletContext</module>
+        <module>s_day14_jsp</module>
+        <module>s_day15</module>
+        <module>s_day16</module>
+        <module>s_day17</module>
+        <module>s_day18</module>
+        <module>flower_shop</module>
+    </modules>
+    <dependencies>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
+    </dependencies>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

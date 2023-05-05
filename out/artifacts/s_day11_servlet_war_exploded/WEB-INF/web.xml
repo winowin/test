@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+<!--    方式一：开发效率低-->
+<!--    定义了一个servlet 取了一个唯一的名字 指定了该类的全名-->
+<!--    <servlet>-->
+<!--        <servlet-name>ServlerDemo</servlet-name>-->
+<!--        <servlet-class>com.rookie.servlet.ServletDemo</servlet-class>-->
+<!--        <load-on-startup>2</load-on-startup>-->
+<!--        -->
+<!--        <init-param>-->
+<!--            <param-name>param1</param-name>-->
+<!--            <param-value>value1</param-value>-->
+<!--        </init-param>-->
+<!--        -->
+<!--       <init-param>-->
+<!--        <param-name>param2</param-name>-->
+<!--        <param-value>value2</param-value>-->
+<!--       </init-param>-->
+<!--    </servlet>-->
+<!--&lt;!&ndash;    映射地址&ndash;&gt;-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ServlerDemo</servlet-name>-->
+<!--        <url-pattern>/demo1</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--映射多个-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ServlerDemo</servlet-name>-->
+<!--        <url-pattern>/demo11</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    -->
+
+<!--    方式二 :注解开发方式-->
+
+</web-app>

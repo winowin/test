@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/flower_shop" />
+    <file type="web" url="file://$PROJECT_DIR$/S_Day12_request" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day12_response" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day13_01servletContext" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day14_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day15" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day16" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day17" />
+    <file type="web" url="file://$PROJECT_DIR$/s_day18" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
